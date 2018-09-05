@@ -69,7 +69,6 @@ export const store = new Vuex.Store({
     getters: {
 
         getAuthorList(state) {
-            console.log(state.data.enclosures);
             return Object.keys(state.data.enclosures).map(key => {
 
                 const item = state.data.enclosures[key];
