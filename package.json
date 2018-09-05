@@ -4,8 +4,8 @@
   "description": "",
   "main": "main.js",
   "scripts": {
-    "server": "webpack-dev-server --open --inline --hot",
-    "build": "webpack"
+    "server": "webpack-dev-server --open --inline --hot --mode='development'",
+    "build": "webpack-dev-server --mode='production'"
   },
   "author": "",
   "license": "ISC",
@@ -24,7 +24,6 @@
     "vue-loader": "^15.4.0",
     "vue-template-compiler": "^2.5.17",
     "webpack": "^4.17.0",
-    "webpack-bundle-analyzer": "^2.13.1",
     "webpack-cli": "^3.1.0",
     "webpack-dev-server": "^3.1.5"
   },

@@ -18,7 +18,7 @@
                     maintainAspectRatio: false,
                     layout: {
                         padding: {
-                            left: 30,
+                            left: 0,
                             right: 30,
                             top: 30,
                             bottom: 0

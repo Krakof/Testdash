@@ -80,7 +80,7 @@
         padding: 20px;
 
         .bar-chart {
-            width: 80%;
+            width: 90%;
             height: 1000px
         }
 

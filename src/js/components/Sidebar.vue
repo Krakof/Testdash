@@ -20,7 +20,7 @@
         background: $sidebarBackground;
 
         .router-link-exact-active{
-            background: #fff;
+            background: $mainBackground;
             color: $textColor;
             border-bottom-color: $borderColor;
         }

@@ -4,7 +4,7 @@
         <div class="content">
             <router-view v-if="!loading"></router-view>
             <div class="loading" v-if="loading">
-                Загрузка...
+                Loading...
             </div>
         </div>
     </div>
@@ -44,7 +44,6 @@
 </script>
 
 <style lang="scss">
-    /*@import "~normalize-scss/sass/normalize/import-now";*/
     @import "../sass/preset";
 
     .container {

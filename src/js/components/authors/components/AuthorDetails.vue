@@ -137,7 +137,7 @@
         &__month {
             font-size: 15px;
             font-weight: 400;
-            word-break: break-word;
+            word-break: break-all;
         }
 
         &__weekday {
@@ -172,6 +172,8 @@
 
         &__title {
             flex: 3;
+            padding-right: 20px;
+            line-height: 1.4;
         }
 
         &__stats {
